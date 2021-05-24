@@ -15,13 +15,13 @@ const Header = ({currentUser,hidden})=>(
         <Logo className='logo'/>
             </Link>
             <div className='options'>
-                <Link to='/shop' className='option'>SHOP</Link>
-                <Link to='/contact' className='option'>CONTACT</Link>
+                <Link to='/shop' className='option'>فروشگاه</Link>
+                <Link to='/contact' className='option'>تماس با ما</Link>
                 {
                     currentUser?
                     <div className='option' onClick={()=>auth.signOut()}>Sign Out</div>
                     :
-                    <Link className='option' to='/signin'>Sign in</Link>
+                    <Link className='option' to='/signin'>ورود به سایت</Link>
                 }
                 <CartIcon/>
 

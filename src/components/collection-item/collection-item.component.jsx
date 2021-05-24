@@ -12,7 +12,7 @@ const CollectionItemt =({item,addItem})=> (
                     <span className='name'>{item.name}</span>
                     <span className='price'>${item.price}</span>
                 </div>
-                <CustomButton onClick = {()=>addItem(item)}inverted>Add to Cart</CustomButton>
+                <CustomButton onClick = {()=>addItem(item)}inverted>اضافه به سبد خرید</CustomButton>
 
             </div>
         

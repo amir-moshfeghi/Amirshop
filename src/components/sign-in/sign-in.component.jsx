@@ -34,14 +34,14 @@ export class SignIn extends Component {
     render() {
         return (
             <div className='sign-in'>
-                <h2> already have an account</h2>
-                <span>sign in with your email</span>
+                <h2> قبلا اکانت ساخته اید؟</h2>
+                <span>ورود با ایمیل</span>
                 <form onSubmit={this.handleSubmit}>
-                    <FormInput name='email' type='email' value={this.state.email} required handleChange={this.handleChange} label='email'/>
-                    <FormInput name='password' type='password' value={this.state.password} required handleChange={this.handleChange} label='password'/>
+                    <FormInput name='email' type='email' value={this.state.email} required handleChange={this.handleChange} label='ایمیل'/>
+                    <FormInput name='password' type='password' value={this.state.password} required handleChange={this.handleChange} label='پسوورد'/>
                     <div className='buttons'>
-                    <CustomButton type='submit' >Sign in</CustomButton>
-                    <CustomButton  onClick={signWithGoogle} isGoogleSignIn>{''} sign in with google {''} </CustomButton>
+                    <CustomButton type='submit' >ورود</CustomButton>
+                    <CustomButton  onClick={signWithGoogle} isGoogleSignIn>{''} ورود با گوگل {''} </CustomButton>
                     </div>
                     
                 </form>

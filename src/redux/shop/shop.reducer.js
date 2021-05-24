@@ -2,7 +2,7 @@ const INITIAL_STATE = {
     collections:[
         {
           id: 1,
-          title: 'Hats',
+          title: 'کلاه های تابستانی',
           routeName: 'hats',
           items: [
             {
@@ -63,7 +63,7 @@ const INITIAL_STATE = {
         },
         {
           id: 2,
-          title: 'Sneakers',
+          title: 'کفش های مردانه',
           routeName: 'sneakers',
           items: [
             {

@@ -23,7 +23,7 @@ const Cart=({cartItems,history,dispatch})=> (
             <CustomButton onClick={
                 ()=>{history.push('/checkout');
                 dispatch(toggleCartHidden())}
-                }>checkout</CustomButton>
+                }>پرداخت</CustomButton>
         </div>
     );
 
